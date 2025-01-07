@@ -1,0 +1,24 @@
+{
+  "editor.formatOnSave": true,
+  "eslint.enable": true,
+  "prettier.requireConfig": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  "zenMode.fullScreen": true,
+  "zenMode.hideTabs": true,
+      "path": "C:\\Program Files\\nodejs\\node.exe",
+  "zenMode.hideStatusBar": true,
+  "zenMode.hideActivityBar": true,
+  "Python": {
+    "path": "C:\\Python39\\python.exe",
+    "args": []
+  },
+  "Docker": {
+    "path": "C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe",
+    "args": []
+  },
+  "terminal.integrated.defaultProfile.windows": "Node.js"
+}

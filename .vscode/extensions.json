@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "coenraads.bracket-pair-colorizer-2",
+    "christian-kohler.path-intellisense",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-containers"
+  ]
+}
