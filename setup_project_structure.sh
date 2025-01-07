@@ -13,6 +13,8 @@ create_directory() {
 
 # Function to create a file if it doesn't exist
 create_file() {
+  dir=$(dirname "$1")
+  create_directory "$dir"
   if [ ! -f "$1" ]; then
     touch "$1"
     echo "Created file: $1"
@@ -21,7 +23,7 @@ create_file() {
 
 # Function to rename old files not in the new structure
 rename_old_files() {
-  for file in $(find . -type f); do
+  for file in $(find . -type f -not -path "./node_modules/*"); do
     if [[ ! " ${NEW_FILES[*]} " =~ " ${file#./} " ]]; then
       mv "$file" "${file}_old"
       echo "Renamed old file: $file -> ${file}_old"

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Investment dashboard for Gatsby Investment",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -10,6 +11,12 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.18.6",
+    "@babel/plugin-proposal-numeric-separator": "^7.18.6",
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0",
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/plugin-transform-class-properties": "^7.25.9",
     "@babel/plugin-transform-nullish-coalescing-operator": "^7.25.9",
     "@babel/plugin-transform-numeric-separator": "^7.25.9",
@@ -17,21 +24,35 @@
     "@babel/plugin-transform-private-methods": "^7.25.9",
     "@babel/plugin-transform-private-property-in-object": "^7.25.9",
     "@eslint/config-array": "^0.19.1",
+    "@humanwhocodes/config-array": "^0.13.0",
+    "@humanwhocodes/object-schema": "^2.0.3",
+    "abab": "^2.0.6",
     "axios": "^1.7.9",
+    "chart.js": "^4.4.7",
+    "domexception": "^4.0.0",
+    "firebase": "^11.1.0",
     "glob": "^11.0.0",
+    "inflight": "^1.0.6",
     "lru-cache": "^11.0.2",
+    "q": "^1.5.1",
     "react": "^19.0.0",
+    "react-chartjs-2": "^5.3.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.1",
     "react-scripts": "^5.0.1",
     "rimraf": "^6.0.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "sourcemap-codec": "^1.4.8",
+    "stable": "^0.1.8",
     "svgo": "^3.3.2",
-    "typescript": "^4.9.5",
+    "typescript": "^5.7.2",
+    "w3c-hr-time": "^1.0.2",
     "workbox-cacheable-response": "^7.3.0",
     "workbox-google-analytics": "^7.3.0"
   },
   "devDependencies": {
     "@testing-library/react": "^16.1.0",
+    "@types/firebase": "^3.2.3",
     "@types/react": "^19.0.3",
     "@types/react-dom": "^19.0.2",
     "eslint": "^8.57.1",
@@ -48,7 +69,10 @@
     "@babel/plugin-transform-private-property-in-object"
   ],
   "babel": {
-    "presets": ["@babel/preset-env", "@babel/preset-react"],
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
     "plugins": [
       "@babel/plugin-transform-class-properties",
       "@babel/plugin-transform-nullish-coalescing-operator",
