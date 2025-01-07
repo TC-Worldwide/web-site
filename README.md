@@ -7,6 +7,8 @@ The TC Worldwide Investment Dashboard is a comprehensive platform designed to pr
 ## Features
 
 - **User Authentication**: Secure login system for accredited investors.
+- **Role-Based Access Control**: Different views and permissions for users based on their roles (e.g., investor, admin).
+- **Two-Factor Authentication (2FA)**: Added security for user accounts.
 - **Investment Overview**: Summary of total investments, net profit, and open investment opportunities.
 - **Fund Segments**: Detailed information on fund segments, including performance metrics and historical data.
 - **Wire Transfers**: Tracking and status updates of wire transfers.
@@ -15,11 +17,14 @@ The TC Worldwide Investment Dashboard is a comprehensive platform designed to pr
 - **User Support**: Contact information and support options for users.
 
 ## New Features
+
 - Custom Authentication: Tailored login flows for unique user roles (e.g., investors, admins).
 - Enhanced Dashboard: Real-time analytics, fund performance, and wire transfer tracking.
 - API Integrations: Fetch real-time data for investment performance and fund segments.
 - User Segmentation: Roles, permissions, and access levels.
 - Branding Updates: TC Worldwide’s branding (logos, color scheme, and typography).
+- **User Management**: Add, edit, or deactivate user accounts.
+- **Investment Opportunities**: Showcase newly available investment opportunities.
 
 ## Technical Specifications
 
@@ -36,6 +41,7 @@ The TC Worldwide Investment Dashboard is a comprehensive platform designed to pr
 4. **Deployment Phase**: Deploy the dashboard and ensure smooth operation.
 
 ## Installation
+
 ```bash
 git clone https://github.com/dFi0racle/TC_Worldwide.git
 cd TC_Worldwide
@@ -44,6 +50,7 @@ npm start
 ```
 
 ## Usage
+
 - Visit `/login` to log in.
 - Access the dashboard at `/dashboard`.
 
@@ -67,16 +74,20 @@ We welcome contributions from the community. Please follow these steps to contri
 5. Open a pull request.
 
 ## Contribution Guidelines
+
 - Fork the repository.
 - Create a new branch for your feature or bug fix.
 - Commit your changes and push to your branch.
 - Open a pull request for review.
 
 ## Changelog
+
 - Added custom authentication.
 - Enhanced dashboard with real-time analytics.
 - Integrated APIs for investment performance.
 - Updated branding.
+- Added user management.
+- Added investment opportunities.
 
 ## License
 
@@ -85,4 +96,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For any questions or support, please contact us at support@tcworldwide.com.
-# web-site

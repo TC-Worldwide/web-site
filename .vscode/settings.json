@@ -9,7 +9,7 @@
   },
   "zenMode.fullScreen": true,
   "zenMode.hideTabs": true,
-      "path": "C:\\Program Files\\nodejs\\node.exe",
+  "path": "C:\\Program Files\\nodejs\\node.exe",
   "zenMode.hideStatusBar": true,
   "zenMode.hideActivityBar": true,
   "Python": {

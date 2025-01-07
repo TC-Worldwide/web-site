@@ -7,6 +7,7 @@ Got it! If you need to write a prompt to build out the Gatsby Investment dashboa
 **Objective**: Develop a comprehensive investment dashboard for Gatsby Investment that provides users with real-time updates on their investments, fund segments, and wire transfers. The dashboard should be user-friendly, secure, and accessible only to accredited investors.
 
 **Requirements**:
+
 1. **User Authentication**: Implement a secure login system to ensure only accredited investors can access the dashboard.
 2. **Investment Overview**: Display a summary of the user's total investments, net profit, and any open investment opportunities.
 3. **Fund Segments**: Provide detailed information on the user's fund segments, including performance metrics and historical data.
@@ -16,6 +17,7 @@ Got it! If you need to write a prompt to build out the Gatsby Investment dashboa
 7. **User Support**: Include contact information and support options for users to get assistance with their investments.
 
 **Technical Specifications**:
+
 - **Frontend**: Use modern web technologies such as HTML, CSS, and JavaScript frameworks (e.g., React, Angular, or Vue.js).
 - **Backend**: Develop the backend using a robust framework (e.g., Node.js, Django, or Ruby on Rails) and ensure secure data handling.
 - **Database**: Use a reliable database system (e.g., PostgreSQL, MySQL, or MongoDB) to store user data and investment information.
@@ -24,6 +26,7 @@ Got it! If you need to write a prompt to build out the Gatsby Investment dashboa
 **Timeline**: Provide a detailed project timeline with milestones for each phase of the buildout, including design, development, testing, and deployment.
 
 **Deliverables**:
+
 - Fully functional investment dashboard
 - Documentation for both users and developers
 - Testing and quality assurance reports

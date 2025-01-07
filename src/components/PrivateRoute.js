@@ -1,18 +1,23 @@
-import React from 'react';
-import { Route, Redirect } from 'react-router-dom';
-import { useAuth } from './AuthProvider';
+import React from "react";
+import { Route, Redirect } from "react-router-dom";
+import { useAuth } from "./AuthProvider";
+import PropTypes from 'prop-types';
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
-    const { user } = useAuth();
+  const { user } = useAuth();
 
-    return (
-        <Route
-            {...rest}
-            render={(props) =>
-                user ? <Component {...props} /> : <Redirect to="/login" />
-            }
-        />
-    );
+  return (
+    <Route
+      {...rest}
+      render={(props) =>
+        user ? <Component {...props} /> : <Redirect to="/login" />
+      }
+    />
+  );
+};
+
+PrivateRoute.propTypes = {
+  component: PropTypes.elementType.isRequired,
 };
 
 export default PrivateRoute;
