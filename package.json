@@ -59,7 +59,7 @@
     "ts-jest": "^29.2.5",
     "@babel/plugin-proposal-class-properties": "^7.21.0",
     "@babel/plugin-proposal-nullish-coalescing-operator": "^7.21.0",
-    "@babel/plugin-proposal-numeric-separator": "^7.21.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.18.6",
     "@babel/plugin-proposal-optional-chaining": "^7.21.0",
     "@babel/plugin-proposal-private-methods": "^7.21.0",
     "@babel/plugin-proposal-private-property-in-object": "^7.21.0",
@@ -67,7 +67,11 @@
     "domexception": "^2.0.1",
     "rollup-plugin-terser": "^7.0.2",
     "sourcemap-codec": "^1.4.8",
-    "w3c-hr-time": "^1.0.2"
+    "w3c-hr-time": "^1.0.2",
+    "@jridgewell/sourcemap-codec": "^1.4.8",
+    "@rollup/plugin-terser": "^7.0.2",
+    "stable": "^0.1.8",
+    "svgo": "3.3.2"
   },
   "packageManager": "pnpm@9.15.3",
   "plugins": [
