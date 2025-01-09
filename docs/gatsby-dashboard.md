@@ -46,6 +46,46 @@ Interactive dashboard for accredited investors to monitor investments, fund segm
 - [ ] Performance optimization
 - [ ] Deployment preparation
 
+## Installation
+
+To install the project dependencies, run:
+
+```bash
+pnpm install
+```
+
+## Running the Project
+
+To start the development server, run:
+
+```bash
+pnpm start
+```
+
+## Building the Project
+
+To build the project for production, run:
+
+```bash
+pnpm build
+```
+
+## Running Tests
+
+To run the tests, use:
+
+```bash
+pnpm test
+```
+
+## Linting
+
+To lint the project files, use:
+
+```bash
+pnpm lint
+```
+
 ## Security Considerations
 
 - Implementation of OAuth2 authentication

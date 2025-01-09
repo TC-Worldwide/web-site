@@ -1,6 +1,15 @@
 import React from 'react';
 
-const PortfolioPerformance = ({ performance }: { performance: any }) => {
+interface PerformanceProps {
+  metrics: string;
+  historicalData: string;
+}
+
+interface PortfolioPerformanceProps {
+  performance: PerformanceProps;
+}
+
+const PortfolioPerformance = ({ performance }: PortfolioPerformanceProps) => {
   return (
     <div>
       <h2>Portfolio Performance</h2>

@@ -1,24 +1,29 @@
 import React, { useEffect, useState } from 'react';
 import { Line } from 'react-chartjs-2';
-import { ChartData } from 'chart.js';
+import { ChartData, ChartOptions } from 'chart.js';
 
-const InteractiveChart = ({ data, options }: { data: any, options: any }) => {
-  const [chartData, setChartData] = useState(data);
+interface InteractiveChartProps {
+  data: ChartData<'line'>;
+  options: ChartOptions<'line'>;
+}
+
+const InteractiveChart = ({ data, options }: InteractiveChartProps) => {
+  const [chartData, setChartData] = useState<ChartData<'line'>>(data);
 
   const fetchChartData = async () => {
     // Implement data fetching logic
-    const fetchedData = await fetch('/api/chart-data').then(res => res.json());
+    const fetchedData: ChartData<'line'> = await fetch('/api/chart-data').then(res => res.json());
     setChartData(fetchedData);
   };
 
   const updateChart = (newData: number[]) => {
-    setChartData((prevData: ChartData) => ({
+    setChartData((prevData: ChartData<'line'>) => ({
       ...prevData,
       datasets: [
-      {
-        ...prevData.datasets[0],
-        data: newData,
-      },
+        {
+          ...prevData.datasets[0],
+          data: newData,
+        },
       ],
     }));
   };

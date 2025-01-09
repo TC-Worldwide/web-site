@@ -7,6 +7,7 @@ import Reports from './pages/Reports';
 import Portfolio from './pages/Portfolio';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
+import PrivateRoute from './components/PrivateRoute'; // Updated import statement
 
 const App: React.FC = () => {
   return (

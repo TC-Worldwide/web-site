@@ -21,6 +21,13 @@
       "command": "npm run lint",
       "group": "build",
       "problemMatcher": ["$eslint-stylish"]
+    },
+    {
+      "label": "lint:fix",
+      "type": "shell",
+      "command": "npm run lint -- --fix",
+      "group": "build",
+      "problemMatcher": ["$eslint-stylish"]
     }
   ]
 }

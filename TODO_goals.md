@@ -207,8 +207,6 @@ By implementing these features, the TC Worldwide site will evolve into the ultim
 
 # TODO Goals
 
-- [ ] Develop a responsive layout
-- [ ] Integrate API for real-time data
 - [ ] Write unit tests for components
 - [ ] Optimize performance
 - [ ] Improve accessibility
@@ -221,6 +219,8 @@ By implementing these features, the TC Worldwide site will evolve into the ultim
 - [ ] Review and update documentation files
 - [x] Implement updateChart method in InteractiveChart component
 - [x] Implement fetchChartData method in InteractiveChart component
+- [ ] Fix ESLint configuration issues
+- [ ] Resolve module not found errors
 
 ## Future Goals
 

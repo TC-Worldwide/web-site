@@ -1,4 +1,4 @@
-# TC Worldwide
+# TC Worldwide Project
 
 TC Worldwide is an investment dashboard application built with React and TypeScript.
 
@@ -14,34 +14,42 @@ TC Worldwide is an investment dashboard application built with React and TypeScr
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/tc-worldwide.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd tc-worldwide
-   ```
-3. Install dependencies:
-   ```bash
-   pnpm install
-   ```
+To install the project dependencies, run:
 
-## Usage
+```bash
+pnpm install
+```
+
+## Running the Project
 
 To start the development server, run:
+
 ```bash
 pnpm start
 ```
 
-To build the project, run:
+## Building the Project
+
+To build the project for production, run:
+
 ```bash
 pnpm build
 ```
 
-To run tests, run:
+## Running Tests
+
+To run the tests, use:
+
 ```bash
 pnpm test
+```
+
+## Linting
+
+To lint the project files, use:
+
+```bash
+pnpm lint
 ```
 
 ## License

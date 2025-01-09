@@ -10,5 +10,10 @@
   "plugins": ["@typescript-eslint"],
   "rules": {
     // Add any custom rules here
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*"]
+    }
+  ]
 }

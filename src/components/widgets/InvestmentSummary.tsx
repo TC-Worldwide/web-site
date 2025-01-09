@@ -1,6 +1,12 @@
 import React from 'react';
 
-const InvestmentSummary = ({ summary }: { summary: any }) => {
+interface SummaryProps {
+  totalInvestments: number;
+  netProfit: number;
+  openOpportunities: number;
+}
+
+const InvestmentSummary = ({ summary }: { summary: SummaryProps }) => {
   return (
     <div>
       <h2>Investment Summary</h2>

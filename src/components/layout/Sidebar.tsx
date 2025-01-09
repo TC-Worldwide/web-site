@@ -1,24 +1,21 @@
 import React from "react";
-import styles from "./Sidebar.module.css";
+// Update the import path to the correct location
+import styles from "../../src/components/layout/Sidebar.module.css"; // Updated import path
 
 interface SidebarProps {
   items: string[];
-  position: 'left' | 'right';
-  className?: string;
 }
 
-export default function Sidebar({ items, position, className = '' }: SidebarProps) {
+const Sidebar: React.FC<SidebarProps> = ({ items }) => {
   return (
-    <aside className={`${styles.sidebar} ${styles[`sidebar-${position}`]} ${className}`.trim()}>
-      <nav>
-        <ul className={styles.list}>
-          {items.map((item, index) => (
-            <li key={index} className={styles.item}>
-              {item}
-            </li>
-          ))}
-        </ul>
-      </nav>
-    </aside>
+    <div className={styles.sidebar}>
+      <ul>
+        {items.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
+    </div>
   );
-}
+};
+
+export default Sidebar;
