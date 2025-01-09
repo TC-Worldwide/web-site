@@ -8,7 +8,6 @@
     "**/node_modules": true
   },
   "zenMode.fullScreen": true,
-  "zenMode.hideTabs": true,
   "path": "C:\\Program Files\\nodejs\\node.exe",
   "zenMode.hideStatusBar": true,
   "zenMode.hideActivityBar": true,
@@ -20,5 +19,6 @@
     "path": "C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe",
     "args": []
   },
-  "terminal.integrated.defaultProfile.windows": "Node.js"
+  "terminal.integrated.defaultProfile.windows": "Node.js",
+  "zenMode.showTabs": "single"
 }
